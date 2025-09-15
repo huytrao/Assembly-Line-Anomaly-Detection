@@ -32,7 +32,7 @@ class ManufacturingFeatureEngineer:
         """
         Engineer features for the manufacturing data.
         Args:
-            df: manufacturing data
+            df (pd.DataFrame): The input manufacturing data.
         Returns:
             Engineered manufacturing data
         """
